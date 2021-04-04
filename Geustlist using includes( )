@@ -1,0 +1,13 @@
+ var geustlist = ["medo" , " ali " , "smay " , " meno" , " mama"]; 
+
+var gustName = prompt("what is your name ?");
+
+if(geustlist.includes(gustName))
+
+{
+    alert("welcome");
+}
+else
+{
+    alert("sorry may be next time ");
+}
