@@ -1,0 +1,13 @@
+function whosPaying(names){
+
+var numberOfpepole = names.length;
+
+var randomPositionPerson = Math.floor(Math.random() * numberOfpepole);
+
+var randomPerson = names[randomPositionPerson];
+
+return randomPerson + " is going to buy a lunch today"
+}
+
+names = ["ali " , "medo" , " sayed" , "ahmed"];
+
