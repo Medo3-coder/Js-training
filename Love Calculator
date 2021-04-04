@@ -1,0 +1,10 @@
+prompt("what's your name ");
+prompt("what's their name ");
+
+var loveScore = Math.random() * 100 ;
+
+//console.log(loveScore );
+
+var love = Math.floor(loveScore) +1 ;
+
+alert("your love score is " + love + "%") ;
