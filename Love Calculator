@@ -5,6 +5,18 @@ var loveScore = Math.random() * 100 ;
 
 //console.log(loveScore );
 
-var love = Math.floor(loveScore) +1 ;
+loveScore = Math.floor(loveScore) +1 ;
 
-alert("your love score is " + love + "%") ;
+if(loveScore > 70 )
+{
+   alert("your love score is " + loveScore + "%" + " you love each other like Kanya loves Kanya") ; 
+}
+
+else if (loveScore > 30 && loveScore <=70)
+{
+     alert("your love score is " + loveScore + "%" ) ; 
+}
+else
+{
+    alert("your love score is " + loveScore + "%" + " you go together like oil and water") ;
+}
